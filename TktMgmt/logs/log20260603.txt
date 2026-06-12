@@ -1,0 +1,1248 @@
+2026-06-03 10:08:06.697 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 10:08:08.589 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 10:08:08.622 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 10:08:09.635 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 10:08:09.639 +05:30 [INF] Hosting environment: Development
+2026-06-03 10:08:09.643 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 10:19:06.386 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/ - null null
+2026-06-03 10:19:06.992 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/ - 404 null null 624.7804ms
+2026-06-03 10:19:07.019 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7031/, Response status code: 404
+2026-06-03 10:19:11.276 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-03 10:19:11.534 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 258.6439ms
+2026-06-03 10:19:11.699 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 10:19:11.700 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-03 10:19:11.733 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 34.3143ms
+2026-06-03 10:19:11.863 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 163.5936ms
+2026-06-03 10:19:11.945 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 10:19:12.001 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.9494ms
+2026-06-03 10:19:12.011 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/favicon-32x32.png - null null
+2026-06-03 10:19:12.073 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-06-03 10:19:12.078 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/favicon-32x32.png - 200 628 image/png 67.3474ms
+2026-06-03 10:19:33.895 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 10:19:33.914 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 10:19:33.986 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 10:19:35.755 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 10:19:35.781 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 1778.1907ms
+2026-06-03 10:19:35.788 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 10:19:35.794 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 1899.1343ms
+2026-06-03 11:22:36.482 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 11:22:37.672 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 11:22:37.676 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 11:22:38.245 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 11:22:38.248 +05:30 [INF] Hosting environment: Development
+2026-06-03 11:22:38.250 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 11:23:21.326 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-03 11:23:21.849 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 578.1956ms
+2026-06-03 11:23:21.874 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 11:23:21.874 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-03 11:23:21.931 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 56.9479ms
+2026-06-03 11:23:22.060 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 186.3653ms
+2026-06-03 11:23:22.135 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 11:23:22.169 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/favicon-32x32.png - null null
+2026-06-03 11:23:22.192 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.3846ms
+2026-06-03 11:23:22.244 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-06-03 11:23:22.249 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/favicon-32x32.png - 200 628 image/png 80.0521ms
+2026-06-03 11:23:24.658 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 11:23:24.699 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 41.2822ms
+2026-06-03 11:23:24.957 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/favicon.ico - null null
+2026-06-03 11:23:25.082 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/favicon.ico - 404 0 null 124.8674ms
+2026-06-03 11:23:25.095 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7031/favicon.ico, Response status code: 404
+2026-06-03 11:23:31.962 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 11:23:31.976 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.1689ms
+2026-06-03 11:25:46.379 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 11:25:46.431 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 52.2432ms
+2026-06-03 11:28:58.647 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 61
+2026-06-03 11:28:58.665 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 11:28:58.714 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 11:29:00.221 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 11:29:00.240 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 1512.4358ms
+2026-06-03 11:29:00.244 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 11:29:00.249 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 1601.8819ms
+2026-06-03 11:30:20.054 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-03 11:30:20.110 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 56.1528ms
+2026-06-03 11:30:20.302 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 11:30:20.330 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-03 11:30:20.406 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 103.8925ms
+2026-06-03 11:30:20.500 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 170.5594ms
+2026-06-03 11:30:20.576 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 11:30:20.592 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.3211ms
+2026-06-03 11:30:38.862 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 61
+2026-06-03 11:30:38.930 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-06-03 11:30:38.976 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2026-06-03 11:30:38.979 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 11:30:38.982 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 11:30:39.269 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 11:30:39.274 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 287.3775ms
+2026-06-03 11:30:39.281 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 11:30:39.286 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 424.2979ms
+2026-06-03 11:30:47.495 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 11:30:47.502 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-06-03 11:30:47.505 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2026-06-03 11:30:47.511 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 11:30:47.515 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 11:30:47.845 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 11:30:47.848 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 326.0245ms
+2026-06-03 11:30:47.852 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 11:30:47.855 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 360.576ms
+2026-06-03 11:33:47.296 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 11:33:47.424 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 128.1184ms
+2026-06-03 11:34:31.119 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 11:34:31.131 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-06-03 11:34:31.142 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2026-06-03 11:34:31.145 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 11:34:31.148 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 11:34:31.494 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 11:34:31.497 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 341.3368ms
+2026-06-03 11:34:31.500 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 11:34:31.505 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 385.328ms
+2026-06-03 11:34:48.689 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 11:34:48.756 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-06-03 11:34:48.765 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2026-06-03 11:34:48.773 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 11:34:48.778 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 11:34:49.313 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 11:34:49.320 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 532.1057ms
+2026-06-03 11:34:49.330 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 11:34:49.333 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 643.9016ms
+2026-06-03 12:26:32.648 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 12:26:34.396 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 12:26:34.403 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 12:26:34.648 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 12:26:34.652 +05:30 [INF] Hosting environment: Development
+2026-06-03 12:26:34.654 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 12:26:43.168 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 12:26:43.409 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-06-03 12:26:43.467 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2026-06-03 12:26:43.478 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 12:26:43.535 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 12:26:45.203 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 12:26:45.223 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 1676.5002ms
+2026-06-03 12:26:45.229 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 12:26:45.244 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 2087.3647ms
+2026-06-03 12:27:08.589 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10&statusId=7003&priorityId=7003 - null null
+2026-06-03 12:27:08.601 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-06-03 12:27:08.605 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2026-06-03 12:27:08.621 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-06-03 12:27:08.638 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-06-03 12:27:08.641 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10&statusId=7003&priorityId=7003 - 401 0 null 52.0797ms
+2026-06-03 12:27:41.807 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - null null
+2026-06-03 12:27:41.821 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-06-03 12:27:41.825 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2026-06-03 12:27:41.829 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-06-03 12:27:41.831 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-06-03 12:27:41.834 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - 401 0 null 27.1289ms
+2026-06-03 12:28:04.042 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/test - null null
+2026-06-03 12:28:04.049 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-06-03 12:28:04.053 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2026-06-03 12:28:04.059 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-06-03 12:28:04.063 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-06-03 12:28:04.065 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/test - 401 0 null 23.6141ms
+2026-06-03 12:34:05.676 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - null null
+2026-06-03 12:34:05.784 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 12:34:05.811 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 12:34:05.890 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 12:34:05.900 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API) in 84.0876ms
+2026-06-03 12:34:05.904 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 12:34:05.907 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 230.4325ms
+2026-06-03 12:53:28.587 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 12:53:29.883 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 12:53:29.887 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 12:53:30.470 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 12:53:30.478 +05:30 [INF] Hosting environment: Development
+2026-06-03 12:53:30.487 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 12:57:52.337 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 12:57:53.099 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 12:57:53.283 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 12:57:56.811 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 12:57:56.845 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 3532.0891ms
+2026-06-03 12:57:56.853 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 12:57:56.886 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 4571.5072ms
+2026-06-03 12:58:16.037 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - null null
+2026-06-03 12:58:16.164 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 12:58:16.219 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 12:58:16.444 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 12:58:16.461 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API) in 230.6437ms
+2026-06-03 12:58:16.472 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 12:58:16.482 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 444.534ms
+2026-06-03 13:05:54.833 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-03 13:05:55.719 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 886.0454ms
+2026-06-03 13:05:55.893 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 13:05:55.894 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-03 13:05:55.986 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 93.1054ms
+2026-06-03 13:05:56.323 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 429.5691ms
+2026-06-03 13:05:56.467 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 13:05:56.575 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 107.3749ms
+2026-06-03 13:08:25.293 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 13:08:25.308 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 13:08:25.311 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 13:08:25.783 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 13:08:25.790 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 475.4411ms
+2026-06-03 13:08:25.794 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 13:08:25.797 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 504.7013ms
+2026-06-03 13:09:33.455 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7031/api/User/update-role - application/json 75
+2026-06-03 13:09:33.469 +05:30 [INF] Executing endpoint 'UserController.UpdateUserRole (TktMgmt.API)'
+2026-06-03 13:09:33.499 +05:30 [INF] Route matched with {action = "UpdateUserRole", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateUserRole(TktMgmt.Common.DTOs.User.UserRoleUpdateDto) on controller UserController (TktMgmt.API).
+2026-06-03 13:09:33.554 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-06-03 13:09:33.559 +05:30 [INF] Executed action UserController.UpdateUserRole (TktMgmt.API) in 55.8231ms
+2026-06-03 13:09:33.563 +05:30 [INF] Executed endpoint 'UserController.UpdateUserRole (TktMgmt.API)'
+2026-06-03 13:09:33.566 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7031/api/User/update-role - 200 null text/plain; charset=utf-8 110.7328ms
+2026-06-03 13:13:42.605 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 13:13:43.270 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 13:13:43.274 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 13:13:43.608 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 13:13:43.610 +05:30 [INF] Hosting environment: Development
+2026-06-03 13:13:43.612 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 13:14:01.507 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-03 13:14:02.047 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 548.6518ms
+2026-06-03 13:14:02.159 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 13:14:02.159 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-03 13:14:02.186 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 25.7194ms
+2026-06-03 13:14:02.288 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 128.3721ms
+2026-06-03 13:14:02.347 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 13:14:02.404 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.2321ms
+2026-06-03 13:14:24.926 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/details - null null
+2026-06-03 13:14:25.223 +05:30 [INF] Executing endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 13:14:25.271 +05:30 [INF] Route matched with {action = "GetUserDetails", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails() on controller UserController (TktMgmt.API).
+2026-06-03 13:14:25.875 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.User.UserDetailsDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 13:14:25.894 +05:30 [INF] Executed action UserController.GetUserDetails (TktMgmt.API) in 609.8712ms
+2026-06-03 13:14:25.897 +05:30 [INF] Executed endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 13:14:25.905 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/details - 200 null application/json; charset=utf-8 978.6966ms
+2026-06-03 13:15:12.671 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - null null
+2026-06-03 13:15:12.685 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 13:15:12.713 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 13:15:12.802 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 13:15:12.809 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API) in 92.2445ms
+2026-06-03 13:15:12.812 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 13:15:12.815 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 144.7232ms
+2026-06-03 13:29:12.679 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 13:29:13.626 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 13:29:13.630 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 13:29:14.135 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 13:29:14.138 +05:30 [INF] Hosting environment: Development
+2026-06-03 13:29:14.142 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 13:29:16.386 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-03 13:29:16.831 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 460.9455ms
+2026-06-03 13:29:16.878 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-03 13:29:16.878 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 13:29:16.912 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 33.5813ms
+2026-06-03 13:29:16.994 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 116.7102ms
+2026-06-03 13:29:17.053 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 13:29:17.123 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 69.9836ms
+2026-06-03 13:29:35.850 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 13:29:35.960 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 13:29:36.015 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 13:29:37.388 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 13:29:37.405 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 1377.5171ms
+2026-06-03 13:29:37.409 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 13:29:37.416 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 1566.3421ms
+2026-06-03 13:30:04.654 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - null null
+2026-06-03 13:30:04.783 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 13:30:04.800 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 13:30:04.855 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 13:30:04.864 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API) in 60.755ms
+2026-06-03 13:30:04.868 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 13:30:04.870 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 216.4969ms
+2026-06-03 13:30:28.562 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/90D22F2A743B4C42804F671CAABFE754 - null null
+2026-06-03 13:30:28.592 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTicketByGuid (TktMgmt.API)'
+2026-06-03 13:30:28.606 +05:30 [INF] Route matched with {action = "GetTicketByGuid", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTicketByGuid(System.String) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 13:30:28.636 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Ticket.TicketDetailsDto'.
+2026-06-03 13:30:28.658 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTicketByGuid (TktMgmt.API) in 47.9402ms
+2026-06-03 13:30:28.663 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTicketByGuid (TktMgmt.API)'
+2026-06-03 13:30:28.665 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/90D22F2A743B4C42804F671CAABFE754 - 200 null application/json; charset=utf-8 103.0995ms
+2026-06-03 13:30:49.952 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/summary - null null
+2026-06-03 13:30:49.994 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetSummary (TktMgmt.API)'
+2026-06-03 13:30:50.011 +05:30 [INF] Route matched with {action = "GetSummary", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 13:30:50.052 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Ticket.TicketSummaryDto'.
+2026-06-03 13:30:50.061 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetSummary (TktMgmt.API) in 44.1599ms
+2026-06-03 13:30:50.067 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetSummary (TktMgmt.API)'
+2026-06-03 13:30:50.070 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/summary - 200 null application/json; charset=utf-8 118.2406ms
+2026-06-03 13:31:37.829 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 13:31:37.950 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 121.7289ms
+2026-06-03 13:31:39.826 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 13:31:39.908 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 81.8177ms
+2026-06-03 13:31:52.053 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 13:31:52.068 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.5508ms
+2026-06-03 13:33:34.909 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 61
+2026-06-03 13:33:34.923 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-06-03 13:33:34.956 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2026-06-03 13:33:34.959 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 13:33:34.962 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 13:33:35.275 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 13:33:35.281 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 314.9181ms
+2026-06-03 13:33:35.285 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 13:33:35.291 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 381.8285ms
+2026-06-03 13:33:50.336 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 13:33:50.346 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-06-03 13:33:50.351 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2026-06-03 13:33:50.356 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 13:33:50.359 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 13:33:50.703 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 13:33:50.708 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 344.2044ms
+2026-06-03 13:33:50.711 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 13:33:50.714 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 377.8639ms
+2026-06-03 13:34:25.685 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - null null
+2026-06-03 13:34:25.694 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-06-03 13:34:25.698 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2026-06-03 13:34:25.703 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-06-03 13:34:25.715 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-06-03 13:34:25.718 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - 401 0 null 32.3471ms
+2026-06-03 13:34:52.892 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - null null
+2026-06-03 13:34:52.904 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'YxeanuuUMex0Od6PjBIBZlnZWLiD3Bt3By5MAye5rGY'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-06-03 13:34:52.913 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'YxeanuuUMex0Od6PjBIBZlnZWLiD3Bt3By5MAye5rGY'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2026-06-03 13:34:52.916 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-06-03 13:34:52.919 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-06-03 13:34:52.922 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - 401 0 null 29.9407ms
+2026-06-03 13:35:04.769 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - null null
+2026-06-03 13:35:04.778 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'YxeanuuUMex0Od6PjBIBZlnZWLiD3Bt3By5MAye5rGY'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-06-03 13:35:04.787 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'YxeanuuUMex0Od6PjBIBZlnZWLiD3Bt3By5MAye5rGY'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2026-06-03 13:35:04.790 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-06-03 13:35:04.794 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-06-03 13:35:04.796 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - 401 0 null 27.1719ms
+2026-06-03 13:35:27.134 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=5 - null null
+2026-06-03 13:35:27.143 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'YxeanuuUMex0Od6PjBIBZlnZWLiD3Bt3By5MAye5rGY'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-06-03 13:35:27.152 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'YxeanuuUMex0Od6PjBIBZlnZWLiD3Bt3By5MAye5rGY'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2026-06-03 13:35:27.155 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-06-03 13:35:27.157 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-06-03 13:35:27.161 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=5 - 401 0 null 26.9395ms
+2026-06-03 13:35:55.128 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=5 - null null
+2026-06-03 13:35:55.135 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 13:35:55.138 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 13:35:55.193 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 13:35:55.197 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API) in 47.1034ms
+2026-06-03 13:35:55.201 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 13:35:55.204 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=5 - 200 null application/json; charset=utf-8 76.5189ms
+2026-06-03 13:36:19.090 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/CE9D55610FE44650856BE734F3CAD41A - null null
+2026-06-03 13:36:19.099 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTicketByGuid (TktMgmt.API)'
+2026-06-03 13:36:19.103 +05:30 [INF] Route matched with {action = "GetTicketByGuid", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTicketByGuid(System.String) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 13:36:19.126 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Ticket.TicketDetailsDto'.
+2026-06-03 13:36:19.133 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTicketByGuid (TktMgmt.API) in 26.0339ms
+2026-06-03 13:36:19.140 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTicketByGuid (TktMgmt.API)'
+2026-06-03 13:36:19.145 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/CE9D55610FE44650856BE734F3CAD41A - 200 null application/json; charset=utf-8 54.5575ms
+2026-06-03 14:55:22.573 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 14:55:24.106 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 14:55:24.113 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 14:55:24.804 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 14:55:24.809 +05:30 [INF] Hosting environment: Development
+2026-06-03 14:55:24.819 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 14:55:28.170 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/ - null null
+2026-06-03 14:55:28.828 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/ - 404 null null 673.0793ms
+2026-06-03 14:55:29.059 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7031/, Response status code: 404
+2026-06-03 14:55:34.384 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-03 14:55:34.571 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 187.2566ms
+2026-06-03 14:55:34.667 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 14:55:34.697 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 30.5215ms
+2026-06-03 14:55:34.710 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-03 14:55:34.866 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 156.1835ms
+2026-06-03 14:55:34.939 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 14:55:34.995 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.3721ms
+2026-06-03 14:55:52.018 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 14:55:52.042 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 14:55:52.105 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 14:55:53.568 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 14:55:53.586 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 1467.7644ms
+2026-06-03 14:55:53.591 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 14:55:53.598 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 1579.9326ms
+2026-06-03 14:56:22.940 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/details - null null
+2026-06-03 14:56:23.080 +05:30 [INF] Executing endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 14:56:23.096 +05:30 [INF] Route matched with {action = "GetUserDetails", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails(System.String) on controller UserController (TktMgmt.API).
+2026-06-03 14:56:23.146 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.User.UserDetailsDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 14:56:23.155 +05:30 [INF] Executed action UserController.GetUserDetails (TktMgmt.API) in 51.4255ms
+2026-06-03 14:56:23.158 +05:30 [INF] Executed endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 14:56:23.161 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/details - 200 null application/json; charset=utf-8 221.3004ms
+2026-06-03 14:56:28.933 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/details?roleName=User - null null
+2026-06-03 14:56:28.951 +05:30 [INF] Executing endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 14:56:28.954 +05:30 [INF] Route matched with {action = "GetUserDetails", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails(System.String) on controller UserController (TktMgmt.API).
+2026-06-03 14:56:28.975 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.User.UserDetailsDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 14:56:28.978 +05:30 [INF] Executed action UserController.GetUserDetails (TktMgmt.API) in 20.6402ms
+2026-06-03 14:56:28.981 +05:30 [INF] Executed endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 14:56:28.987 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/details?roleName=User - 200 null application/json; charset=utf-8 53.895ms
+2026-06-03 15:11:24.204 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 15:11:25.475 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 15:11:25.497 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 15:11:25.716 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 15:11:25.723 +05:30 [INF] Hosting environment: Development
+2026-06-03 15:11:25.727 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 15:11:55.217 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-03 15:11:55.678 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 471.4178ms
+2026-06-03 15:11:55.858 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 15:11:55.858 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-03 15:11:56.261 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 402.9081ms
+2026-06-03 15:11:56.503 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 645.5872ms
+2026-06-03 15:11:56.609 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 15:11:56.772 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 165.5922ms
+2026-06-03 15:12:09.979 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 61
+2026-06-03 15:12:10.103 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 15:12:10.160 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 15:12:11.584 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 15:12:11.600 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 1428.8989ms
+2026-06-03 15:12:11.604 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 15:12:11.611 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 1632.1761ms
+2026-06-03 15:12:17.995 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 15:12:18.023 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 15:12:18.031 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 15:12:18.426 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 15:12:18.430 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 390.9607ms
+2026-06-03 15:12:18.434 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 15:12:18.437 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 442.0133ms
+2026-06-03 15:12:57.872 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/User/create - application/json 109
+2026-06-03 15:12:58.022 +05:30 [INF] Executing endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 15:12:58.039 +05:30 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(TktMgmt.Common.DTOs.User.UserCreateDto) on controller UserController (TktMgmt.API).
+2026-06-03 15:12:58.438 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.User.UserResponseDto'.
+2026-06-03 15:12:58.446 +05:30 [INF] Executed action UserController.CreateUser (TktMgmt.API) in 397.3839ms
+2026-06-03 15:12:58.450 +05:30 [INF] Executed endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 15:12:58.453 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/User/create - 200 null application/json; charset=utf-8 581.339ms
+2026-06-03 15:13:21.883 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/details?roleName=User - null null
+2026-06-03 15:13:21.933 +05:30 [INF] Executing endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 15:13:21.964 +05:30 [INF] Route matched with {action = "GetUserDetails", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails(System.String) on controller UserController (TktMgmt.API).
+2026-06-03 15:13:22.003 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.User.UserDetailsDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 15:13:22.010 +05:30 [INF] Executed action UserController.GetUserDetails (TktMgmt.API) in 40.2036ms
+2026-06-03 15:13:22.020 +05:30 [INF] Executed endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 15:13:22.023 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/details?roleName=User - 200 null application/json; charset=utf-8 139.7491ms
+2026-06-03 15:13:34.560 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/193735FDEE9E48F689E336F598D83713 - null null
+2026-06-03 15:13:34.571 +05:30 [INF] Executing endpoint 'UserController.GetUserByGuid (TktMgmt.API)'
+2026-06-03 15:13:34.589 +05:30 [INF] Route matched with {action = "GetUserByGuid", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByGuid(System.String) on controller UserController (TktMgmt.API).
+2026-06-03 15:13:34.614 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.User.UserDetailsDto'.
+2026-06-03 15:13:34.618 +05:30 [INF] Executed action UserController.GetUserByGuid (TktMgmt.API) in 20.8177ms
+2026-06-03 15:13:34.621 +05:30 [INF] Executed endpoint 'UserController.GetUserByGuid (TktMgmt.API)'
+2026-06-03 15:13:34.624 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/193735FDEE9E48F689E336F598D83713 - 200 null application/json; charset=utf-8 64.556ms
+2026-06-03 15:13:52.706 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7031/api/User/update-role - application/json 75
+2026-06-03 15:13:52.716 +05:30 [INF] Executing endpoint 'UserController.UpdateUserRole (TktMgmt.API)'
+2026-06-03 15:13:52.738 +05:30 [INF] Route matched with {action = "UpdateUserRole", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateUserRole(TktMgmt.Common.DTOs.User.UserRoleUpdateDto) on controller UserController (TktMgmt.API).
+2026-06-03 15:13:52.782 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-06-03 15:13:52.785 +05:30 [INF] Executed action UserController.UpdateUserRole (TktMgmt.API) in 43.1401ms
+2026-06-03 15:13:52.788 +05:30 [INF] Executed endpoint 'UserController.UpdateUserRole (TktMgmt.API)'
+2026-06-03 15:13:52.790 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7031/api/User/update-role - 200 null text/plain; charset=utf-8 84.5144ms
+2026-06-03 15:22:36.633 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 15:22:37.230 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 15:22:37.235 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 15:22:37.669 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 15:22:37.671 +05:30 [INF] Hosting environment: Development
+2026-06-03 15:22:37.674 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 15:33:05.336 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/ - null null
+2026-06-03 15:33:05.839 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/ - 404 null null 517.5122ms
+2026-06-03 15:33:05.857 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7031/, Response status code: 404
+2026-06-03 15:33:10.340 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-03 15:33:10.561 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 221.5669ms
+2026-06-03 15:33:10.669 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-03 15:33:10.673 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 15:33:10.779 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 106.2613ms
+2026-06-03 15:33:10.845 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 176.3181ms
+2026-06-03 15:33:10.935 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 15:33:11.005 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.1505ms
+2026-06-03 15:33:31.912 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 15:33:31.925 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 15:33:32.001 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 15:33:33.560 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 15:33:33.577 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 1563.926ms
+2026-06-03 15:33:33.583 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 15:33:33.588 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 1676.2123ms
+2026-06-03 15:34:28.217 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Ticket/create - application/json 130
+2026-06-03 15:34:28.354 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.CreateTicket (TktMgmt.API)'
+2026-06-03 15:34:28.371 +05:30 [INF] Route matched with {action = "CreateTicket", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTicket(TktMgmt.Common.DTOs.Ticket.TicketCreateDto) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 15:34:28.419 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Ticket.TicketResponseDto'.
+2026-06-03 15:34:28.426 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.CreateTicket (TktMgmt.API) in 51.2392ms
+2026-06-03 15:34:28.463 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.CreateTicket (TktMgmt.API)'
+2026-06-03 15:34:28.466 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Ticket/create - 200 null application/json; charset=utf-8 248.9822ms
+2026-06-03 15:34:36.785 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - null null
+2026-06-03 15:34:36.811 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 15:34:36.835 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 15:42:34.958 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 15:42:35.871 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 15:42:35.890 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 15:42:36.561 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 15:42:36.563 +05:30 [INF] Hosting environment: Development
+2026-06-03 15:42:36.566 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 15:42:38.542 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-03 15:42:39.088 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 547.5142ms
+2026-06-03 15:42:39.261 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 15:42:39.263 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-03 15:42:39.297 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 35.4272ms
+2026-06-03 15:42:39.439 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 175.905ms
+2026-06-03 15:42:39.525 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 15:42:39.622 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.6963ms
+2026-06-03 15:43:02.555 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - null null
+2026-06-03 15:43:02.813 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 15:43:02.881 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 15:46:05.418 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 15:46:06.432 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 15:46:06.437 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 15:46:06.896 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 15:46:06.898 +05:30 [INF] Hosting environment: Development
+2026-06-03 15:46:06.901 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 15:46:08.622 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-03 15:46:09.258 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 656.5113ms
+2026-06-03 15:46:09.414 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-03 15:46:09.415 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 15:46:09.456 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 41.3641ms
+2026-06-03 15:46:09.547 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 134.078ms
+2026-06-03 15:46:09.617 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 15:46:09.689 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.3397ms
+2026-06-03 15:46:27.976 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - null null
+2026-06-03 15:46:28.234 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 15:46:28.292 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 15:46:29.028 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 15:46:29.048 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API) in 743.5235ms
+2026-06-03 15:46:29.052 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 15:46:29.058 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 1082.37ms
+2026-06-03 15:46:37.603 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10&statusId=3 - null null
+2026-06-03 15:46:37.628 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 15:46:37.630 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 15:46:37.642 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 15:46:37.645 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API) in 10.4445ms
+2026-06-03 15:46:37.648 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 15:46:37.651 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10&statusId=3 - 200 null application/json; charset=utf-8 47.3526ms
+2026-06-03 15:46:46.579 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10&priorityId=3 - null null
+2026-06-03 15:46:46.597 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 15:46:46.600 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 15:46:46.613 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 15:46:46.616 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API) in 12.0776ms
+2026-06-03 15:46:46.619 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 15:46:46.623 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10&priorityId=3 - 200 null application/json; charset=utf-8 44.6235ms
+2026-06-03 15:49:18.819 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7031/api/Ticket/update - application/json 179
+2026-06-03 15:49:18.839 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.UpdateTicket (TktMgmt.API)'
+2026-06-03 15:49:18.874 +05:30 [INF] Route matched with {action = "UpdateTicket", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateTicket(TktMgmt.Common.DTOs.Ticket.TicketUpdateDto) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 15:52:09.122 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.UpdateTicket (TktMgmt.API) in 170239.8454ms
+2026-06-03 15:52:09.136 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.UpdateTicket (TktMgmt.API)'
+2026-06-03 15:52:09.144 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function usp_UpdateTicket has too many arguments specified.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.Connection.SqlConnectionInternal.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteReaderAsync>b__283_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TktMgmt.Store.Implementations.TicketRepository.UpdateTicket(TicketUpdateDto dto, Int32 userId) in C:\Users\iamsp\source\repos\TktMgmt.Store\Implementations\TicketRepository.cs:line 109
+   at TktMgmt.Service.Implementations.TicketService.UpdateTicket(TicketUpdateDto dto, Int32 userId) in C:\Users\iamsp\source\repos\TktMgmt.Service\Implementations\TicketService.cs:line 44
+   at TktMgmt.API.Controllers.TicketController.UpdateTicket(TicketUpdateDto dto) in C:\Users\iamsp\source\repos\TktMgmt\Controllers\TicketController.cs:line 70
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:eb8f12fc-c975-4a0e-b074-6ec87b89421f
+Error Number:8144,State:2,Class:16
+2026-06-03 15:52:10.853 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7031/api/Ticket/update - 500 null text/plain; charset=utf-8 172034.6097ms
+2026-06-03 15:52:17.086 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7031/api/Ticket/update - application/json 179
+2026-06-03 15:52:17.111 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.UpdateTicket (TktMgmt.API)'
+2026-06-03 15:52:17.114 +05:30 [INF] Route matched with {action = "UpdateTicket", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateTicket(TktMgmt.Common.DTOs.Ticket.TicketUpdateDto) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 15:52:17.145 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.ValueTuple`2[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-03 15:52:17.161 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.UpdateTicket (TktMgmt.API) in 42.7996ms
+2026-06-03 15:52:17.165 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.UpdateTicket (TktMgmt.API)'
+2026-06-03 15:52:17.167 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7031/api/Ticket/update - 200 null application/json; charset=utf-8 81.986ms
+2026-06-03 15:52:40.650 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10&priorityId=3 - null null
+2026-06-03 15:52:40.659 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 15:52:40.662 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 15:52:40.692 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 15:52:40.695 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API) in 28.7589ms
+2026-06-03 15:52:40.697 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 15:52:40.700 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10&priorityId=3 - 200 null application/json; charset=utf-8 49.6939ms
+2026-06-03 15:52:48.015 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10&priorityId=2 - null null
+2026-06-03 15:52:48.022 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 15:52:48.025 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 15:52:48.032 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 15:52:48.036 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API) in 7.3509ms
+2026-06-03 15:52:48.044 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 15:52:48.046 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10&priorityId=2 - 200 null application/json; charset=utf-8 31.7645ms
+2026-06-03 15:54:32.394 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Ticket/bulk - application/json 1165
+2026-06-03 15:54:32.406 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.BulkInsert (TktMgmt.API)'
+2026-06-03 15:54:32.422 +05:30 [INF] Route matched with {action = "BulkInsert", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BulkInsert(System.Collections.Generic.List`1[TktMgmt.Common.DTOs.Ticket.TicketBulkCreateDto]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 15:54:44.236 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.BulkInsert (TktMgmt.API) in 11810.1667ms
+2026-06-03 15:54:44.247 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.BulkInsert (TktMgmt.API)'
+2026-06-03 15:54:44.251 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: The input string 'D8B5653638924FD4A9D626C922DE3976' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Int32.Parse(String s)
+   at TktMgmt.API.Controllers.TicketController.BulkInsert(List`1 tickets) in C:\Users\iamsp\source\repos\TktMgmt\Controllers\TicketController.cs:line 80
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-03 15:54:45.225 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Ticket/bulk - 500 null text/plain; charset=utf-8 12831.7782ms
+2026-06-03 16:02:09.859 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 16:02:10.449 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 16:02:10.453 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 16:02:10.807 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 16:02:10.810 +05:30 [INF] Hosting environment: Development
+2026-06-03 16:02:10.812 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 16:02:15.728 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-03 16:02:16.499 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 776.3651ms
+2026-06-03 16:02:16.570 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-03 16:02:16.570 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 16:02:16.718 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 137.7418ms
+2026-06-03 16:02:16.799 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 229.8267ms
+2026-06-03 16:02:16.878 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 16:02:17.009 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 130.4804ms
+2026-06-03 16:02:38.019 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 16:02:38.143 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 16:02:38.195 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 16:02:39.690 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 16:02:39.711 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 1500.5667ms
+2026-06-03 16:02:39.716 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 16:02:39.724 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 1705.688ms
+2026-06-03 16:03:21.144 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Ticket/create - application/json 116
+2026-06-03 16:03:21.306 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.CreateTicket (TktMgmt.API)'
+2026-06-03 16:03:21.321 +05:30 [INF] Route matched with {action = "CreateTicket", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTicket(TktMgmt.Common.DTOs.Ticket.TicketCreateDto) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 16:03:21.369 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Ticket.TicketResponseDto'.
+2026-06-03 16:03:21.374 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.CreateTicket (TktMgmt.API) in 49.0057ms
+2026-06-03 16:03:21.378 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.CreateTicket (TktMgmt.API)'
+2026-06-03 16:03:21.380 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Ticket/create - 200 null application/json; charset=utf-8 236.9574ms
+2026-06-03 16:03:30.149 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - null null
+2026-06-03 16:03:30.190 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 16:03:30.213 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 16:03:30.269 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 16:03:30.277 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API) in 57.3645ms
+2026-06-03 16:03:30.282 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 16:03:30.288 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 138.5659ms
+2026-06-03 16:04:00.767 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Ticket/bulk - application/json 1165
+2026-06-03 16:04:00.796 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.BulkInsert (TktMgmt.API)'
+2026-06-03 16:04:00.821 +05:30 [INF] Route matched with {action = "BulkInsert", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BulkInsert(System.Collections.Generic.List`1[TktMgmt.Common.DTOs.Ticket.TicketBulkCreateDto]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 16:04:00.857 +05:30 [INF] Bulk insert started
+2026-06-03 16:04:00.959 +05:30 [INF] Bulk insert completed successfully
+2026-06-03 16:04:00.961 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-06-03 16:04:00.964 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.BulkInsert (TktMgmt.API) in 138.452ms
+2026-06-03 16:04:00.968 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.BulkInsert (TktMgmt.API)'
+2026-06-03 16:04:00.972 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Ticket/bulk - 200 null text/plain; charset=utf-8 204.9039ms
+2026-06-03 16:04:09.536 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/summary - null null
+2026-06-03 16:04:09.546 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetSummary (TktMgmt.API)'
+2026-06-03 16:04:09.570 +05:30 [INF] Route matched with {action = "GetSummary", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 16:04:09.595 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Ticket.TicketSummaryDto'.
+2026-06-03 16:04:09.601 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetSummary (TktMgmt.API) in 25.8038ms
+2026-06-03 16:04:09.606 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetSummary (TktMgmt.API)'
+2026-06-03 16:04:09.608 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/summary - 200 null application/json; charset=utf-8 72.5473ms
+2026-06-03 16:04:24.255 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - null null
+2026-06-03 16:04:24.263 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 16:04:24.266 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 16:04:24.294 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 16:04:24.297 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API) in 25.1147ms
+2026-06-03 16:04:24.300 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 16:04:24.305 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 49.3035ms
+2026-06-03 16:04:43.470 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7031/api/Ticket/delete/F920BF22B222418EACE083FB0ABD91CA - null null
+2026-06-03 16:04:43.496 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.DeleteTicket (TktMgmt.API)'
+2026-06-03 16:04:43.514 +05:30 [INF] Route matched with {action = "DeleteTicket", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteTicket(System.String) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 16:04:43.543 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-06-03 16:04:43.547 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.DeleteTicket (TktMgmt.API) in 29.3603ms
+2026-06-03 16:04:43.550 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.DeleteTicket (TktMgmt.API)'
+2026-06-03 16:04:43.556 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7031/api/Ticket/delete/F920BF22B222418EACE083FB0ABD91CA - 200 null text/plain; charset=utf-8 85.7231ms
+2026-06-03 16:04:52.547 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/F920BF22B222418EACE083FB0ABD91CA - null null
+2026-06-03 16:04:52.556 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTicketByGuid (TktMgmt.API)'
+2026-06-03 16:04:52.570 +05:30 [INF] Route matched with {action = "GetTicketByGuid", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTicketByGuid(System.String) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 16:04:52.596 +05:30 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-06-03 16:04:52.599 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTicketByGuid (TktMgmt.API) in 23.0693ms
+2026-06-03 16:04:52.602 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTicketByGuid (TktMgmt.API)'
+2026-06-03 16:04:52.606 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/F920BF22B222418EACE083FB0ABD91CA - 404 null text/plain; charset=utf-8 59.7056ms
+2026-06-03 16:05:26.133 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/BC1BF13D7D9F4991960073E98359C9CF - null null
+2026-06-03 16:05:26.142 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTicketByGuid (TktMgmt.API)'
+2026-06-03 16:05:26.145 +05:30 [INF] Route matched with {action = "GetTicketByGuid", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTicketByGuid(System.String) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 16:05:26.156 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Ticket.TicketDetailsDto'.
+2026-06-03 16:05:26.177 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTicketByGuid (TktMgmt.API) in 27.1692ms
+2026-06-03 16:05:26.183 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTicketByGuid (TktMgmt.API)'
+2026-06-03 16:05:26.186 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/BC1BF13D7D9F4991960073E98359C9CF - 200 null application/json; charset=utf-8 53.6444ms
+2026-06-03 16:05:53.984 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/User/create - application/json 114
+2026-06-03 16:05:54.000 +05:30 [INF] Executing endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 16:05:54.032 +05:30 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(TktMgmt.Common.DTOs.User.UserCreateDto) on controller UserController (TktMgmt.API).
+2026-06-03 16:05:54.321 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.User.UserResponseDto'.
+2026-06-03 16:05:54.327 +05:30 [INF] Executed action UserController.CreateUser (TktMgmt.API) in 290.1985ms
+2026-06-03 16:05:54.336 +05:30 [INF] Executed endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 16:05:54.338 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/User/create - 200 null application/json; charset=utf-8 354.8189ms
+2026-06-03 16:06:59.194 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/test - null null
+2026-06-03 16:06:59.204 +05:30 [INF] Executing endpoint 'UserController.Test (TktMgmt.API)'
+2026-06-03 16:06:59.208 +05:30 [INF] Route matched with {action = "Test", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller UserController (TktMgmt.API).
+2026-06-03 16:06:59.216 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-06-03 16:06:59.219 +05:30 [INF] Executed action UserController.Test (TktMgmt.API) in 3.64ms
+2026-06-03 16:06:59.223 +05:30 [INF] Executed endpoint 'UserController.Test (TktMgmt.API)'
+2026-06-03 16:06:59.225 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/test - 200 null text/plain; charset=utf-8 31.6319ms
+2026-06-03 16:07:15.111 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/details - null null
+2026-06-03 16:07:15.122 +05:30 [INF] Executing endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 16:07:15.148 +05:30 [INF] Route matched with {action = "GetUserDetails", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails(System.String) on controller UserController (TktMgmt.API).
+2026-06-03 16:07:15.173 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.User.UserDetailsDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 16:07:15.181 +05:30 [INF] Executed action UserController.GetUserDetails (TktMgmt.API) in 28.7294ms
+2026-06-03 16:07:15.186 +05:30 [INF] Executed endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 16:07:15.189 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/details - 200 null application/json; charset=utf-8 77.7682ms
+2026-06-03 16:07:19.334 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/details?roleName=Admin - null null
+2026-06-03 16:07:19.341 +05:30 [INF] Executing endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 16:07:19.344 +05:30 [INF] Route matched with {action = "GetUserDetails", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails(System.String) on controller UserController (TktMgmt.API).
+2026-06-03 16:07:19.352 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.User.UserDetailsDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 16:07:19.354 +05:30 [INF] Executed action UserController.GetUserDetails (TktMgmt.API) in 5.6647ms
+2026-06-03 16:07:19.357 +05:30 [INF] Executed endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 16:07:19.360 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/details?roleName=Admin - 200 null application/json; charset=utf-8 25.6581ms
+2026-06-03 16:07:37.990 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7031/api/User/update-role - application/json 74
+2026-06-03 16:07:38.489 +05:30 [INF] Executing endpoint 'UserController.UpdateUserRole (TktMgmt.API)'
+2026-06-03 16:07:38.536 +05:30 [INF] Route matched with {action = "UpdateUserRole", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateUserRole(TktMgmt.Common.DTOs.User.UserRoleUpdateDto) on controller UserController (TktMgmt.API).
+2026-06-03 16:07:38.818 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-06-03 16:07:38.824 +05:30 [INF] Executed action UserController.UpdateUserRole (TktMgmt.API) in 49.5013ms
+2026-06-03 16:07:38.851 +05:30 [INF] Executed endpoint 'UserController.UpdateUserRole (TktMgmt.API)'
+2026-06-03 16:07:38.876 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7031/api/User/update-role - 200 null text/plain; charset=utf-8 886.4868ms
+2026-06-03 16:07:53.053 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7031/api/User/delete/193735FDEE9E48F689E336F598D83713 - null null
+2026-06-03 16:07:53.082 +05:30 [INF] Executing endpoint 'UserController.DeleteUser (TktMgmt.API)'
+2026-06-03 16:07:53.104 +05:30 [INF] Route matched with {action = "DeleteUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteUser(System.String) on controller UserController (TktMgmt.API).
+2026-06-03 16:07:53.132 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-06-03 16:07:53.137 +05:30 [INF] Executed action UserController.DeleteUser (TktMgmt.API) in 27.1992ms
+2026-06-03 16:07:53.142 +05:30 [INF] Executed endpoint 'UserController.DeleteUser (TktMgmt.API)'
+2026-06-03 16:07:53.150 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7031/api/User/delete/193735FDEE9E48F689E336F598D83713 - 200 null text/plain; charset=utf-8 96.5904ms
+2026-06-03 16:08:09.185 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/AF07D996640743599CB2376E17088310 - null null
+2026-06-03 16:08:09.201 +05:30 [INF] Executing endpoint 'UserController.GetUserByGuid (TktMgmt.API)'
+2026-06-03 16:08:09.218 +05:30 [INF] Route matched with {action = "GetUserByGuid", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByGuid(System.String) on controller UserController (TktMgmt.API).
+2026-06-03 16:08:09.242 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.User.UserDetailsDto'.
+2026-06-03 16:08:09.249 +05:30 [INF] Executed action UserController.GetUserByGuid (TktMgmt.API) in 27.0033ms
+2026-06-03 16:08:09.252 +05:30 [INF] Executed endpoint 'UserController.GetUserByGuid (TktMgmt.API)'
+2026-06-03 16:08:09.255 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/AF07D996640743599CB2376E17088310 - 200 null application/json; charset=utf-8 85.9365ms
+2026-06-03 16:38:49.178 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 16:38:50.105 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 16:38:50.119 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 16:38:50.679 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 16:38:50.683 +05:30 [INF] Hosting environment: Development
+2026-06-03 16:38:50.685 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 16:38:57.418 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/ - null null
+2026-06-03 16:38:58.082 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/ - 404 null null 683.3682ms
+2026-06-03 16:38:58.212 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7031/, Response status code: 404
+2026-06-03 16:39:04.794 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-03 16:39:05.052 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 258.1802ms
+2026-06-03 16:39:05.190 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 16:39:05.190 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-03 16:39:05.224 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 33.775ms
+2026-06-03 16:39:05.410 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 219.6822ms
+2026-06-03 16:39:05.494 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 16:39:05.537 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 43.0444ms
+2026-06-03 16:39:30.137 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 16:39:30.159 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 16:39:30.222 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 16:39:31.666 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 16:39:31.683 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 1447.939ms
+2026-06-03 16:39:31.689 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 16:39:31.694 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 1556.5423ms
+2026-06-03 16:41:09.968 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Ticket/create - application/json 125
+2026-06-03 16:41:10.175 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.CreateTicket (TktMgmt.API)'
+2026-06-03 16:41:10.194 +05:30 [INF] Route matched with {action = "CreateTicket", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTicket(TktMgmt.Common.DTOs.Ticket.TicketCreateDto) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 16:41:10.261 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Ticket.TicketResponseDto'.
+2026-06-03 16:41:10.271 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.CreateTicket (TktMgmt.API) in 71.7345ms
+2026-06-03 16:41:10.289 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.CreateTicket (TktMgmt.API)'
+2026-06-03 16:41:10.292 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Ticket/create - 200 null application/json; charset=utf-8 324.5595ms
+2026-06-03 16:41:18.728 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - null null
+2026-06-03 16:41:18.741 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 16:41:18.759 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 16:41:18.797 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 16:41:18.805 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API) in 42.6478ms
+2026-06-03 16:41:18.809 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 16:41:18.812 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 84.3041ms
+2026-06-03 16:43:05.082 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Ticket/bulk - application/json 1546
+2026-06-03 16:43:05.110 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.BulkInsert (TktMgmt.API)'
+2026-06-03 16:43:05.132 +05:30 [INF] Route matched with {action = "BulkInsert", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BulkInsert(System.Collections.Generic.List`1[TktMgmt.Common.DTOs.Ticket.TicketBulkCreateDto]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 16:43:05.167 +05:30 [INF] Bulk insert started
+2026-06-03 16:43:05.286 +05:30 [INF] Bulk insert completed successfully
+2026-06-03 16:43:05.288 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-06-03 16:43:05.293 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.BulkInsert (TktMgmt.API) in 156.4707ms
+2026-06-03 16:43:05.297 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.BulkInsert (TktMgmt.API)'
+2026-06-03 16:43:05.300 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Ticket/bulk - 200 null text/plain; charset=utf-8 218.3471ms
+2026-06-03 16:43:13.209 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/summary - null null
+2026-06-03 16:43:13.218 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetSummary (TktMgmt.API)'
+2026-06-03 16:43:13.235 +05:30 [INF] Route matched with {action = "GetSummary", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 16:43:13.262 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Ticket.TicketSummaryDto'.
+2026-06-03 16:43:13.268 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetSummary (TktMgmt.API) in 29.6563ms
+2026-06-03 16:43:13.271 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetSummary (TktMgmt.API)'
+2026-06-03 16:43:13.275 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/summary - 200 null application/json; charset=utf-8 65.9276ms
+2026-06-03 16:43:44.844 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/User/create - application/json 114
+2026-06-03 16:43:44.850 +05:30 [INF] Executing endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 16:43:44.866 +05:30 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(TktMgmt.Common.DTOs.User.UserCreateDto) on controller UserController (TktMgmt.API).
+2026-06-03 16:44:05.310 +05:30 [INF] Executed action UserController.CreateUser (TktMgmt.API) in 20440.387ms
+2026-06-03 16:44:05.327 +05:30 [INF] Executed endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 16:44:05.336 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'usp_CreateUser' expects parameter '@RoleId', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.Connection.SqlConnectionInternal.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteReaderAsync>b__283_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at UserRepository.CreateUser(UserCreateDto dto, String passwordHash) in C:\Users\iamsp\source\repos\TktMgmt.Store\Implementations\UserRepository.cs:line 30
+   at UserService.CreateUser(UserCreateDto dto) in C:\Users\iamsp\source\repos\TktMgmt.Service\Implementations\UserService.cs:line 19
+   at UserController.CreateUser(UserCreateDto dto) in C:\Users\iamsp\source\repos\TktMgmt\Controllers\UserController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:560c06c2-0dfd-4fd1-bb0f-a01530cd19fe
+Error Number:201,State:4,Class:16
+2026-06-03 16:44:06.570 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/User/create - 500 null text/plain; charset=utf-8 21726.7546ms
+2026-06-03 16:52:46.971 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 16:52:47.899 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 16:52:47.904 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 16:52:48.374 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 16:52:48.378 +05:30 [INF] Hosting environment: Development
+2026-06-03 16:52:48.380 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 16:52:53.489 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 16:52:53.552 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 79.59ms
+2026-06-03 16:53:08.573 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 16:53:08.759 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 16:53:08.806 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 16:53:10.397 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 16:53:10.422 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 1600.025ms
+2026-06-03 16:53:10.427 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 16:53:10.441 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 1868.1082ms
+2026-06-03 16:54:01.714 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/User/create - application/json 114
+2026-06-03 16:54:01.897 +05:30 [INF] Executing endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 16:54:01.914 +05:30 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(TktMgmt.Common.DTOs.User.UserCreateDto) on controller UserController (TktMgmt.API).
+2026-06-03 16:54:19.432 +05:30 [INF] Executed action UserController.CreateUser (TktMgmt.API) in 17513.2194ms
+2026-06-03 16:54:19.452 +05:30 [INF] Executed endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 16:54:19.500 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function usp_CreateUser has too many arguments specified.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.Connection.SqlConnectionInternal.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteReaderAsync>b__283_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at UserRepository.CreateUser(UserCreateDto dto, String passwordHash) in C:\Users\iamsp\source\repos\TktMgmt.Store\Implementations\UserRepository.cs:line 30
+   at UserService.CreateUser(UserCreateDto dto) in C:\Users\iamsp\source\repos\TktMgmt.Service\Implementations\UserService.cs:line 19
+   at UserController.CreateUser(UserCreateDto dto) in C:\Users\iamsp\source\repos\TktMgmt\Controllers\UserController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:9f6d132a-5aaa-40c2-a24a-762aec7dbe71
+Error Number:8144,State:2,Class:16
+2026-06-03 16:54:21.168 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/User/create - 500 null text/plain; charset=utf-8 19454.0839ms
+2026-06-03 16:56:18.817 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 16:56:19.691 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 16:56:19.705 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 16:56:20.294 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 16:56:20.297 +05:30 [INF] Hosting environment: Development
+2026-06-03 16:56:20.300 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 16:56:20.590 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-03 16:56:21.080 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 504.8235ms
+2026-06-03 16:56:21.221 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-03 16:56:21.221 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 16:56:21.318 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 96.841ms
+2026-06-03 16:56:21.380 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 159.1229ms
+2026-06-03 16:56:21.467 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 16:56:21.583 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 116.1296ms
+2026-06-03 16:56:36.583 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 16:56:36.690 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 16:56:36.738 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 16:56:38.151 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 16:56:38.170 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 1416.7609ms
+2026-06-03 16:56:38.175 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 16:56:38.180 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 1597.132ms
+2026-06-03 16:57:44.972 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/User/create - application/json 114
+2026-06-03 16:57:45.110 +05:30 [INF] Executing endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 16:57:45.125 +05:30 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(TktMgmt.Common.DTOs.User.UserCreateDto) on controller UserController (TktMgmt.API).
+2026-06-03 16:58:07.371 +05:30 [INF] Executed action UserController.CreateUser (TktMgmt.API) in 22239.0902ms
+2026-06-03 16:58:07.381 +05:30 [INF] Executed endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 16:58:07.388 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: UserGuid
+   at Microsoft.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at Microsoft.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at UserRepository.CreateUser(UserCreateDto dto, String passwordHash) in C:\Users\iamsp\source\repos\TktMgmt.Store\Implementations\UserRepository.cs:line 36
+   at UserService.CreateUser(UserCreateDto dto) in C:\Users\iamsp\source\repos\TktMgmt.Service\Implementations\UserService.cs:line 19
+   at UserController.CreateUser(UserCreateDto dto) in C:\Users\iamsp\source\repos\TktMgmt\Controllers\UserController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-03 16:58:07.980 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/User/create - 500 null text/plain; charset=utf-8 23007.5037ms
+2026-06-03 17:00:06.262 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/User/create - application/json 114
+2026-06-03 17:00:06.289 +05:30 [INF] Executing endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 17:00:06.293 +05:30 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(TktMgmt.Common.DTOs.User.UserCreateDto) on controller UserController (TktMgmt.API).
+2026-06-03 17:00:13.606 +05:30 [INF] Executed action UserController.CreateUser (TktMgmt.API) in 7307.9334ms
+2026-06-03 17:00:13.611 +05:30 [INF] Executed endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 17:00:13.615 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: UserGuid
+   at Microsoft.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at Microsoft.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at UserRepository.CreateUser(UserCreateDto dto, String passwordHash) in C:\Users\iamsp\source\repos\TktMgmt.Store\Implementations\UserRepository.cs:line 36
+   at UserService.CreateUser(UserCreateDto dto) in C:\Users\iamsp\source\repos\TktMgmt.Service\Implementations\UserService.cs:line 19
+   at UserController.CreateUser(UserCreateDto dto) in C:\Users\iamsp\source\repos\TktMgmt\Controllers\UserController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-03 17:00:14.643 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/User/create - 500 null text/plain; charset=utf-8 8381.1893ms
+2026-06-03 21:45:30.758 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 21:45:33.215 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 21:45:33.242 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 21:45:33.818 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 21:45:34.044 +05:30 [INF] Hosting environment: Development
+2026-06-03 21:45:34.079 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 21:46:36.388 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-03 21:46:37.334 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 960.3011ms
+2026-06-03 21:46:37.563 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-03 21:46:37.563 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 21:46:37.660 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 94.4301ms
+2026-06-03 21:46:37.796 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 232.561ms
+2026-06-03 21:46:37.919 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 21:46:38.068 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 149.4147ms
+2026-06-03 21:47:15.718 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 21:47:15.947 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 21:47:16.069 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 21:47:19.101 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 21:47:19.157 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 3044.1697ms
+2026-06-03 21:47:19.167 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 21:47:19.179 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 3460.7652ms
+2026-06-03 21:48:06.728 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Ticket/create - application/json 104
+2026-06-03 21:48:07.016 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.CreateTicket (TktMgmt.API)'
+2026-06-03 21:48:07.061 +05:30 [INF] Route matched with {action = "CreateTicket", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTicket(TktMgmt.Common.DTOs.Ticket.TicketCreateDto) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 21:48:07.165 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Ticket.TicketResponseDto'.
+2026-06-03 21:48:07.176 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.CreateTicket (TktMgmt.API) in 105.0439ms
+2026-06-03 21:48:07.184 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.CreateTicket (TktMgmt.API)'
+2026-06-03 21:48:07.192 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Ticket/create - 200 null application/json; charset=utf-8 463.7748ms
+2026-06-03 21:48:18.961 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10&statusId=3&priorityId=3 - null null
+2026-06-03 21:48:19.014 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 21:48:19.051 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 21:48:19.189 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 21:48:19.211 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API) in 143.2873ms
+2026-06-03 21:48:19.220 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 21:48:19.234 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10&statusId=3&priorityId=3 - 200 null application/json; charset=utf-8 272.5889ms
+2026-06-03 21:48:36.181 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10&priorityId=3 - null null
+2026-06-03 21:48:36.210 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 21:48:36.220 +05:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-03 21:48:36.244 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 21:48:36.251 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API) in 17.832ms
+2026-06-03 21:48:36.263 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets (TktMgmt.API)'
+2026-06-03 21:48:36.273 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/list?pageNumber=1&pageSize=10&priorityId=3 - 200 null application/json; charset=utf-8 92.666ms
+2026-06-03 21:49:23.823 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/User/create - application/json 114
+2026-06-03 21:49:23.838 +05:30 [INF] Executing endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 21:49:23.883 +05:30 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(TktMgmt.Common.DTOs.User.UserCreateDto) on controller UserController (TktMgmt.API).
+2026-06-03 21:49:45.061 +05:30 [INF] Executed action UserController.CreateUser (TktMgmt.API) in 21161.9727ms
+2026-06-03 21:49:45.069 +05:30 [INF] Executed endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 21:49:45.090 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: UserGuid
+   at Microsoft.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at Microsoft.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at UserRepository.CreateUser(UserCreateDto dto, String passwordHash) in C:\Users\iamsp\source\repos\TktMgmt.Store\Implementations\UserRepository.cs:line 36
+   at UserService.CreateUser(UserCreateDto dto) in C:\Users\iamsp\source\repos\TktMgmt.Service\Implementations\UserService.cs:line 19
+   at UserController.CreateUser(UserCreateDto dto) in C:\Users\iamsp\source\repos\TktMgmt\Controllers\UserController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-03 21:49:46.803 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/User/create - 500 null text/plain; charset=utf-8 22980.1037ms
+2026-06-03 22:03:57.215 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 22:03:58.343 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-03 22:03:58.352 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-03 22:03:59.135 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 22:03:59.140 +05:30 [INF] Hosting environment: Development
+2026-06-03 22:03:59.145 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-03 22:04:19.227 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-03 22:04:20.140 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 936.3721ms
+2026-06-03 22:04:20.360 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 22:04:20.360 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-03 22:04:20.412 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 51.8876ms
+2026-06-03 22:04:20.580 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 220.1741ms
+2026-06-03 22:04:20.716 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-03 22:04:20.906 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 189.2903ms
+2026-06-03 22:04:36.641 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/login - application/json 62
+2026-06-03 22:04:36.827 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 22:04:36.923 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-03 22:04:39.073 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-03 22:04:39.097 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API) in 2154.3651ms
+2026-06-03 22:04:39.104 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.Login (TktMgmt.API)'
+2026-06-03 22:04:39.111 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/login - 200 null application/json; charset=utf-8 2470.7593ms
+2026-06-03 22:05:27.657 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/User/create - application/json 114
+2026-06-03 22:05:27.881 +05:30 [INF] Executing endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 22:05:27.909 +05:30 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(TktMgmt.Common.DTOs.User.UserCreateDto) on controller UserController (TktMgmt.API).
+2026-06-03 22:05:28.409 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.User.UserResponseDto'.
+2026-06-03 22:05:28.416 +05:30 [INF] Executed action UserController.CreateUser (TktMgmt.API) in 499.4983ms
+2026-06-03 22:05:28.422 +05:30 [INF] Executed endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 22:05:28.427 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/User/create - 200 null application/json; charset=utf-8 770.4325ms
+2026-06-03 22:05:59.372 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/User/create - application/json 112
+2026-06-03 22:05:59.428 +05:30 [INF] Executing endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 22:05:59.432 +05:30 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(TktMgmt.Common.DTOs.User.UserCreateDto) on controller UserController (TktMgmt.API).
+2026-06-03 22:05:59.845 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.User.UserResponseDto'.
+2026-06-03 22:05:59.850 +05:30 [INF] Executed action UserController.CreateUser (TktMgmt.API) in 412.4059ms
+2026-06-03 22:05:59.858 +05:30 [INF] Executed endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 22:05:59.863 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/User/create - 200 null application/json; charset=utf-8 490.8466ms
+2026-06-03 22:08:29.916 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/User/create - application/json 112
+2026-06-03 22:08:29.927 +05:30 [INF] Executing endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 22:08:29.933 +05:30 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(TktMgmt.Common.DTOs.User.UserCreateDto) on controller UserController (TktMgmt.API).
+2026-06-03 22:08:30.438 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.User.UserResponseDto'.
+2026-06-03 22:08:30.443 +05:30 [INF] Executed action UserController.CreateUser (TktMgmt.API) in 500.5638ms
+2026-06-03 22:08:30.450 +05:30 [INF] Executed endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 22:08:30.455 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/User/create - 200 null application/json; charset=utf-8 541.3902ms
+2026-06-03 22:09:23.238 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/User/create - application/json 112
+2026-06-03 22:09:23.275 +05:30 [INF] Executing endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 22:09:23.279 +05:30 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(TktMgmt.Common.DTOs.User.UserCreateDto) on controller UserController (TktMgmt.API).
+2026-06-03 22:09:23.719 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.User.UserResponseDto'.
+2026-06-03 22:09:23.724 +05:30 [INF] Executed action UserController.CreateUser (TktMgmt.API) in 437.1887ms
+2026-06-03 22:09:23.729 +05:30 [INF] Executed endpoint 'UserController.CreateUser (TktMgmt.API)'
+2026-06-03 22:09:23.735 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/User/create - 200 null application/json; charset=utf-8 496.9588ms
+2026-06-03 22:09:44.713 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/test - null null
+2026-06-03 22:09:44.745 +05:30 [INF] Executing endpoint 'UserController.Test (TktMgmt.API)'
+2026-06-03 22:09:44.754 +05:30 [INF] Route matched with {action = "Test", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller UserController (TktMgmt.API).
+2026-06-03 22:09:44.761 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-06-03 22:09:44.767 +05:30 [INF] Executed action UserController.Test (TktMgmt.API) in 6.7632ms
+2026-06-03 22:09:44.773 +05:30 [INF] Executed endpoint 'UserController.Test (TktMgmt.API)'
+2026-06-03 22:09:44.778 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/test - 200 null text/plain; charset=utf-8 65.4616ms
+2026-06-03 22:09:52.691 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/details - null null
+2026-06-03 22:09:52.709 +05:30 [INF] Executing endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 22:09:52.732 +05:30 [INF] Route matched with {action = "GetUserDetails", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails(System.String) on controller UserController (TktMgmt.API).
+2026-06-03 22:09:52.763 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.User.UserDetailsDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 22:09:52.772 +05:30 [INF] Executed action UserController.GetUserDetails (TktMgmt.API) in 31.958ms
+2026-06-03 22:09:52.777 +05:30 [INF] Executed endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 22:09:52.782 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/details - 200 null application/json; charset=utf-8 90.7326ms
+2026-06-03 22:09:57.919 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/details?roleName=User - null null
+2026-06-03 22:09:57.946 +05:30 [INF] Executing endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 22:09:57.952 +05:30 [INF] Route matched with {action = "GetUserDetails", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails(System.String) on controller UserController (TktMgmt.API).
+2026-06-03 22:09:57.974 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.User.UserDetailsDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 22:09:57.978 +05:30 [INF] Executed action UserController.GetUserDetails (TktMgmt.API) in 19.7726ms
+2026-06-03 22:09:57.983 +05:30 [INF] Executed endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 22:09:57.988 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/details?roleName=User - 200 null application/json; charset=utf-8 68.5883ms
+2026-06-03 22:10:11.638 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/578D8C74A8984BB181F3094202F4084B - null null
+2026-06-03 22:10:11.651 +05:30 [INF] Executing endpoint 'UserController.GetUserByGuid (TktMgmt.API)'
+2026-06-03 22:10:11.678 +05:30 [INF] Route matched with {action = "GetUserByGuid", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByGuid(System.String) on controller UserController (TktMgmt.API).
+2026-06-03 22:10:11.700 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.User.UserDetailsDto'.
+2026-06-03 22:10:11.705 +05:30 [INF] Executed action UserController.GetUserByGuid (TktMgmt.API) in 20.4354ms
+2026-06-03 22:10:11.711 +05:30 [INF] Executed endpoint 'UserController.GetUserByGuid (TktMgmt.API)'
+2026-06-03 22:10:11.715 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/578D8C74A8984BB181F3094202F4084B - 200 null application/json; charset=utf-8 77.8829ms
+2026-06-03 22:10:30.339 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7031/api/User/update-role - application/json 75
+2026-06-03 22:10:30.377 +05:30 [INF] Executing endpoint 'UserController.UpdateUserRole (TktMgmt.API)'
+2026-06-03 22:10:30.397 +05:30 [INF] Route matched with {action = "UpdateUserRole", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateUserRole(TktMgmt.Common.DTOs.User.UserRoleUpdateDto) on controller UserController (TktMgmt.API).
+2026-06-03 22:10:30.440 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-06-03 22:10:30.445 +05:30 [INF] Executed action UserController.UpdateUserRole (TktMgmt.API) in 40.5146ms
+2026-06-03 22:10:30.454 +05:30 [INF] Executed endpoint 'UserController.UpdateUserRole (TktMgmt.API)'
+2026-06-03 22:10:30.459 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7031/api/User/update-role - 200 null text/plain; charset=utf-8 120.1339ms
+2026-06-03 22:10:34.522 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/details?roleName=User - null null
+2026-06-03 22:10:34.532 +05:30 [INF] Executing endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 22:10:34.539 +05:30 [INF] Route matched with {action = "GetUserDetails", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails(System.String) on controller UserController (TktMgmt.API).
+2026-06-03 22:10:34.565 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.User.UserDetailsDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 22:10:34.574 +05:30 [INF] Executed action UserController.GetUserDetails (TktMgmt.API) in 17.1721ms
+2026-06-03 22:10:34.583 +05:30 [INF] Executed endpoint 'UserController.GetUserDetails (TktMgmt.API)'
+2026-06-03 22:10:34.591 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/details?roleName=User - 200 null application/json; charset=utf-8 69.3682ms
+2026-06-03 22:10:40.163 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/578D8C74A8984BB181F3094202F4084B - null null
+2026-06-03 22:10:40.172 +05:30 [INF] Executing endpoint 'UserController.GetUserByGuid (TktMgmt.API)'
+2026-06-03 22:10:40.176 +05:30 [INF] Route matched with {action = "GetUserByGuid", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByGuid(System.String) on controller UserController (TktMgmt.API).
+2026-06-03 22:10:40.188 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.User.UserDetailsDto'.
+2026-06-03 22:10:40.193 +05:30 [INF] Executed action UserController.GetUserByGuid (TktMgmt.API) in 9.7813ms
+2026-06-03 22:10:40.198 +05:30 [INF] Executed endpoint 'UserController.GetUserByGuid (TktMgmt.API)'
+2026-06-03 22:10:40.204 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/578D8C74A8984BB181F3094202F4084B - 200 null application/json; charset=utf-8 41.914ms
+2026-06-03 22:10:44.736 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7031/api/User/delete/578D8C74A8984BB181F3094202F4084B - null null
+2026-06-03 22:10:44.784 +05:30 [INF] Executing endpoint 'UserController.DeleteUser (TktMgmt.API)'
+2026-06-03 22:10:44.820 +05:30 [INF] Route matched with {action = "DeleteUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteUser(System.String) on controller UserController (TktMgmt.API).
+2026-06-03 22:10:44.849 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-06-03 22:10:44.856 +05:30 [INF] Executed action UserController.DeleteUser (TktMgmt.API) in 28.484ms
+2026-06-03 22:10:44.862 +05:30 [INF] Executed endpoint 'UserController.DeleteUser (TktMgmt.API)'
+2026-06-03 22:10:44.867 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7031/api/User/delete/578D8C74A8984BB181F3094202F4084B - 200 null text/plain; charset=utf-8 130.6326ms
+2026-06-03 22:10:47.558 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/User/578D8C74A8984BB181F3094202F4084B - null null
+2026-06-03 22:10:47.576 +05:30 [INF] Executing endpoint 'UserController.GetUserByGuid (TktMgmt.API)'
+2026-06-03 22:10:47.581 +05:30 [INF] Route matched with {action = "GetUserByGuid", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByGuid(System.String) on controller UserController (TktMgmt.API).
+2026-06-03 22:10:47.595 +05:30 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-06-03 22:10:47.599 +05:30 [INF] Executed action UserController.GetUserByGuid (TktMgmt.API) in 7.0509ms
+2026-06-03 22:10:47.608 +05:30 [INF] Executed endpoint 'UserController.GetUserByGuid (TktMgmt.API)'
+2026-06-03 22:10:47.613 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/User/578D8C74A8984BB181F3094202F4084B - 404 null text/plain; charset=utf-8 55.084ms

@@ -1,0 +1,6 @@
+@TktMgmt_HostAddress = http://localhost:5175
+
+GET {{TktMgmt_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

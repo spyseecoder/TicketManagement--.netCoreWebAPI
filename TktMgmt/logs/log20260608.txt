@@ -1,0 +1,50 @@
+2026-06-08 15:53:57.782 +05:30 [INF] User profile is available. Using 'C:\Users\iamsp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-08 15:53:59.077 +05:30 [INF] Now listening on: https://localhost:7031
+2026-06-08 15:53:59.084 +05:30 [INF] Now listening on: http://localhost:5175
+2026-06-08 15:53:59.714 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-08 15:53:59.719 +05:30 [INF] Hosting environment: Development
+2026-06-08 15:53:59.724 +05:30 [INF] Content root path: C:\Users\iamsp\source\repos\TktMgmt
+2026-06-08 15:54:01.828 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/ - null null
+2026-06-08 15:54:06.112 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2026-06-08 15:54:06.429 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/ - 404 null null 4627.0788ms
+2026-06-08 15:54:06.439 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 327.2729ms
+2026-06-08 15:54:06.456 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7031/, Response status code: 404
+2026-06-08 15:54:06.547 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-08 15:54:06.608 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2026-06-08 15:54:06.632 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 84.7839ms
+2026-06-08 15:54:06.818 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 210.06ms
+2026-06-08 15:54:06.933 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2026-06-08 15:54:06.991 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.7022ms
+2026-06-08 15:55:15.402 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Auth/User_Login_Async - application/json 62
+2026-06-08 15:55:15.437 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.AuthController.User_Login_Async (TktMgmt.API)'
+2026-06-08 15:55:15.496 +05:30 [INF] Route matched with {action = "User_Login_Async", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] User_Login_Async(TktMgmt.Common.DTOs.Auth.LoginRequestDto) on controller TktMgmt.API.Controllers.AuthController (TktMgmt.API).
+2026-06-08 15:55:18.713 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Auth.LoginResponseDto'.
+2026-06-08 15:55:18.731 +05:30 [INF] Executed action TktMgmt.API.Controllers.AuthController.User_Login_Async (TktMgmt.API) in 3221.4661ms
+2026-06-08 15:55:18.737 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.AuthController.User_Login_Async (TktMgmt.API)'
+2026-06-08 15:55:18.744 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Auth/User_Login_Async - 200 null application/json; charset=utf-8 3342.0575ms
+2026-06-08 16:00:00.551 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Ticket/CreateTicket_Async - application/json 104
+2026-06-08 16:00:00.606 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-06-08 16:00:00.623 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-06-08 16:00:00.628 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Ticket/CreateTicket_Async - 401 0 null 77.0429ms
+2026-06-08 16:01:19.039 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7031/api/Ticket/CreateTicket_Async - application/json 104
+2026-06-08 16:01:19.158 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.CreateTicket_Async (TktMgmt.API)'
+2026-06-08 16:01:19.186 +05:30 [INF] Route matched with {action = "CreateTicket_Async", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTicket_Async(TktMgmt.Common.DTOs.Ticket.TicketCreateDto) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-08 16:01:19.245 +05:30 [INF] Executing OkObjectResult, writing value of type 'TktMgmt.Common.DTOs.Ticket.TicketResponseDto'.
+2026-06-08 16:01:19.252 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.CreateTicket_Async (TktMgmt.API) in 56.7534ms
+2026-06-08 16:01:19.258 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.CreateTicket_Async (TktMgmt.API)'
+2026-06-08 16:01:19.261 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7031/api/Ticket/CreateTicket_Async - 200 null application/json; charset=utf-8 223.1876ms
+2026-06-08 16:01:52.585 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/GetTickets_async?pageNumber=1&pageSize=10 - null null
+2026-06-08 16:01:52.607 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets_async (TktMgmt.API)'
+2026-06-08 16:01:52.641 +05:30 [INF] Route matched with {action = "GetTickets_async", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets_async(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-08 16:01:52.693 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-08 16:01:52.703 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets_async (TktMgmt.API) in 54.2387ms
+2026-06-08 16:01:52.708 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets_async (TktMgmt.API)'
+2026-06-08 16:01:52.712 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/GetTickets_async?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 127.8735ms
+2026-06-08 16:02:19.028 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Ticket/GetTickets_async?pageNumber=2&pageSize=10 - null null
+2026-06-08 16:02:19.046 +05:30 [INF] Executing endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets_async (TktMgmt.API)'
+2026-06-08 16:02:19.049 +05:30 [INF] Route matched with {action = "GetTickets_async", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets_async(Int32, Int32, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller TktMgmt.API.Controllers.TicketController (TktMgmt.API).
+2026-06-08 16:02:19.097 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TktMgmt.Common.DTOs.Ticket.TicketListDto, TktMgmt.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-08 16:02:19.102 +05:30 [INF] Executed action TktMgmt.API.Controllers.TicketController.GetTickets_async (TktMgmt.API) in 23.2493ms
+2026-06-08 16:02:19.107 +05:30 [INF] Executed endpoint 'TktMgmt.API.Controllers.TicketController.GetTickets_async (TktMgmt.API)'
+2026-06-08 16:02:19.113 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Ticket/GetTickets_async?pageNumber=2&pageSize=10 - 200 null application/json; charset=utf-8 84.8622ms

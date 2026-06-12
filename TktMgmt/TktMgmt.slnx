@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../TktMgmt.Common/TktMgmt.Common.csproj" />
+  <Project Path="../TktMgmt.Service/TktMgmt.Service.csproj" />
+  <Project Path="../TktMgmt.Store/TktMgmt.Store.csproj" />
+  <Project Path="TktMgmt.API.csproj" />
+</Solution>
